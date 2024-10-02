@@ -1,6 +1,10 @@
 import { CorsOptions } from 'cors';
 
-const whiteList = ['http://localhost:3000', 'http://localhost:3001'];
+const whiteList = [
+  'http://localhost:3000',
+  'http://localhost:3001',
+  'https://mesto.taashev92.ru',
+];
 
 export const corsConfig: CorsOptions = {
   credentials: true,
