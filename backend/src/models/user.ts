@@ -4,7 +4,8 @@ import validator from 'validator';
 import { messageError } from '../utils/constants';
 
 import { userConfig } from '../config/userConfig';
-import { UserType } from '../types/model/user';
+
+import { UserType } from './types/user.type';
 
 const { name, about, avatar } = userConfig;
 

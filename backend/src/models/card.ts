@@ -4,7 +4,7 @@ import { messageError } from '../utils/constants';
 
 import { cardConfig } from '../config/cardConfig';
 
-import { CardType } from '../types/model/card';
+import { CardType } from './types/card.type';
 
 const cardSchema = new Schema<CardType>({
   name: {
