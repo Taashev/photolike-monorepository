@@ -4,16 +4,16 @@ export const userConfig = {
   name: {
     minlength: 2,
     maxlength: 30,
-    default: 'Жак-Ив Кусто',
+    default: 'Анонимус',
   },
   about: {
     minlength: 2,
     maxlength: 200,
-    default: 'Исследователь',
+    default: 'Кто ты воин?',
   },
   avatar: {
     regexpUrl,
     default:
-      'https://pictures.s3.yandex.net/resources/jacques-cousteau_1604399756.png',
+      'https://lastfm.freetls.fastly.net/i/u/ar0/409f50f3332df7627fe80c3900bfc74f.jpg',
   },
 };
