@@ -1,4 +1,4 @@
-const baseUrl = 'https://api.mesto.taashev92.ru';
+const baseUrl = 'https://api.photolike.taashev92.ru';
 
 const checkResponse = (res) => {
   if (res.ok) {

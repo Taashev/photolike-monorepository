@@ -4,7 +4,7 @@ dotenv.config();
 
 const {
   PORT = '3001',
-  DB_NAME = 'mestodb',
+  DB_NAME = 'photolikedb',
   SECRET_KEY = 'secret-key',
   NODE_ENV = 'development',
 } = process.env;
